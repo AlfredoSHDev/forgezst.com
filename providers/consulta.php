@@ -7,7 +7,7 @@ if(isset($_POST['consultar'])){
     if(!$conex){
         echo "Error de conexión";
     }else{
-        $sql = "SELECT id_producto, nombre, precio, categoria FROM productos WHERE nombre LIKE '%$idparamatro%'";
+        $sql = "SELECT id_producto, nombre, precio, categoria FROM productos WHERE nombre LIKE '%$idparamatro%' or id_producto='$idparamatro'";
         $result = $conex->query($sql);
         if($result->num_rows > 0){
             echo "<table border='1'>
