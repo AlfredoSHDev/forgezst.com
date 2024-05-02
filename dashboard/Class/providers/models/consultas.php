@@ -1,6 +1,5 @@
-<?php
-
-include("conexion.php");
+<!-- <?php
+include("../conexion.php");
 
 if(isset($_POST['consultar'])){
     $idparamatro = $_POST['idparamatro'];
@@ -32,5 +31,5 @@ if(isset($_POST['consultar'])){
         $conex->close();
     }
 }
-
 ?>
+ -->

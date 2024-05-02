@@ -16,24 +16,24 @@
     <main>
         <div class="fomrs">
             <h1>AGREGAR PRODUCTOS</h1>
-            <form action="modelo.php" method="post">
-                <label for="name">Nombre:</label>
-                    <input type="text" name="name" id="name" placeholder="Nombre del producto"><br>
+            <form action="agregar.php" method="post">
+                <label for="parametro">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre del producto"><br>
 
-                    <label for="precio">Precio:</label>
+                    <label for="parametro">Precio:</label>
                     <input type="text" name="precio" id="precio" placeholder="Precio del producto"><br>
 
-                    <label for="precio">Imagen del producto:</label>
-                    <input type="text" name="precio" id="precio" placeholder="Precio del producto"><br>
+                    <label for="parametro">Imagen del producto:</label>
+                    <input type="text" name="imagen" id="imagen" placeholder="Precio del producto"><br>
 
-                    <label for="option">Categoria:</label><br>
+                    <label for="option" name="option">Categoria:</label><br>
                         <select name="option" id="option">
                             <option value="1">Software</option>
                             <option value="2">Diseño</option>
                             <option value="3">Hatware</option>
                         </select><br>
 
-                        <input type="submit" value="AGREGAR">  
+                        <input type="submit" name="agregar" value="AGREGAR">  
             </form>
         </div>
     </main>

@@ -10,30 +10,27 @@
 </head>
 <body>
 
-
     <div id="navbarContainer"></div>
 
     <main>
         
         <div class="fomrs">
             <h1>LISTADO DE PRODUCTOS</h1>
-            <form action="../../../providers/consulta.php" method="post">
+            <form action="../providers/models/consultas.php" method="POST">
+
                 <label for="idparamatro">ID Producto:</label>
                     <input type="text" name="idparamatro" id="idparamatro" placeholder="ÍD del producto"><br>
-
-                        <input type="submit" name="consultar" value="CONSLTAR">  
+                    <button type="submit" name="consultar">Consultar</button> 
             </form>
         </div>
     </main>
-    
-</body>
 
-<script src="../../js/navbar.js"></script>
+    <script src="../../js/navbar.js"></script>
     <script>
         const navbarContainer = document.getElementById('navbarContainer');
         const navbar = createNavbar();
         navbarContainer.appendChild(navbar);
     </script>
     <a href=""></a>
-
+</body>
 </html>
