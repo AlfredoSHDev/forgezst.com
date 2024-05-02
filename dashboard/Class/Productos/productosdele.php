@@ -16,7 +16,7 @@
     <main>
         <div class="fomrs">
             <h1>ELIMINAR PRODUCTO</h1>
-            <form action="modelo.php" method="post">
+            <form action="../providers/models/delete.php" method="post">
                 <label for="id-p">ID Producto:</label>
                     <input type="text" name="id-p" id="id-p" placeholder="ÍD del producto"><br>
 

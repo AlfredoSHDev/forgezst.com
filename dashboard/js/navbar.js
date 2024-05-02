@@ -9,9 +9,9 @@ function createNavbar() {
                 <li><a href="../../dashb.html">INICIO</a></li>
 
                 <div class="produ">
-                <li><a href="productos.html"><i class='bx bx-cart-download' ></i> Productos</a></li>
-                <li><a href="productosagre.html"><i class='bx bx-shield-plus' ></i> Agregar</a></li>
-                <li><a href="productosdele.html"><i class='bx bx-shield-minus'></i> Eliminar</a></li>
+                <li><a href="productos.php"><i class='bx bx-cart-download' ></i> Productos</a></li>
+                <li><a href="productosagre.php"><i class='bx bx-shield-plus' ></i> Agregar</a></li>
+                <li><a href="productosdele.php"><i class='bx bx-shield-minus'></i> Eliminar</a></li>
             </div>
         
             <div class="pres">

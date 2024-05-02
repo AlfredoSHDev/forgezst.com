@@ -1,5 +1,5 @@
 <?php
-include("conexion.php");
+include("../conexion.php");
 if(isset($_POST['agregar'])){
     if(!$conex){
         echo "Error al conectarme al servidor";

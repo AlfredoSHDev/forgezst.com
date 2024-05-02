@@ -16,7 +16,7 @@
     <main>
         <div class="fomrs">
             <h1>AGREGAR PRODUCTOS</h1>
-            <form action="agregar.php" method="post">
+            <form action="../providers/models/agregar.php" method="post">
                 <label for="parametro">Nombre:</label>
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre del producto"><br>
 
@@ -28,9 +28,9 @@
 
                     <label for="option" name="option">Categoria:</label><br>
                         <select name="option" id="option">
-                            <option value="1">Software</option>
-                            <option value="2">Diseño</option>
-                            <option value="3">Hatware</option>
+                            <option value="Software">Software</option>
+                            <option value="Diseño">Diseño</option>
+                            <option value="Hatware">Hatware</option>
                         </select><br>
 
                         <input type="submit" name="agregar" value="AGREGAR">  
