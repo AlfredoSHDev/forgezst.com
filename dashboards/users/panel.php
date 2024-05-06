@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +11,6 @@
     <title>Document</title>
 </head>
 <body>
-    <head>
-        <nav>
-            <ul><a href="dashboard/dashb.html">Ir DashBoard</a></ul>
-        </nav>
-    </head>
-
-    <main>
-
-    </main>
-    
+    Bienvenid@ 
 </body>
 </html>
